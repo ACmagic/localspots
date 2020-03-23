@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #ffffff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2240,6 +2240,7 @@ input, select, textarea {
 			flex-wrap: wrap;
 			width: calc(100% + 3em);
 			margin: -1.5em 0 2em -1.5em;
+			color: #545454;
 		}
 
 			form > .fields > .field {
@@ -2294,7 +2295,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #545454;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -3021,7 +3022,6 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3234,15 +3234,15 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style2 {
@@ -3250,15 +3250,15 @@ input, select, textarea {
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3 {
-			background-color: #ffbd59;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #ffffff;
 		}
 
 		.wrapper.fullscreen {
