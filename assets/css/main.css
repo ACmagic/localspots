@@ -2552,7 +2552,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #ff914d;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -2675,6 +2675,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		flex-direction: column;
 	}
 
 		ul.actions li {
