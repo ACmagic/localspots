@@ -12,6 +12,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel=icon href="images/favicon.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161710171-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-161710171-1');
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -27,8 +34,8 @@
 							<p style="max-width: 45%; color: white; margin-bottom: unset;">Buy a gift card to your favourite local businesses </p>
 							<p style="max-width: 45%; color: white;">affected by the COVID-19 pandemic.</p></p>
 							<ul class="actions">
-								<li><a href="https://localspots.sharetribe.com" class="button scrolly" style="font-size: medium;">View spots</a></li>
-								<li><a href="#three" class="button scrolly" style="font-size: medium; margin-top: 1em;">List your spot</a></li>
+								<li><a href="https://localspots.sharetribe.com" class="button scrolly" style="font-size: medium;" onclick="ga('send', 'event', 'button', 'view_spots')">View spots</a></li>
+								<li><a href="#three" class="button scrolly" style="font-size: medium; margin-top: 1em;" onclick="ga('send', 'event', 'button', 'contact_us')">List your spot</a></li>
 							</ul>
 						</div>
 					</section>
@@ -111,7 +118,7 @@
 								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="https://localspots.sharetribe.com/infos/about" target='_blank' class="button" style="background-color: #ff914d; color:white !important;">FIND OUT MORE</a></li>
+								<li><a href="https://localspots.sharetribe.com/infos/about" target='_blank' class="button" style="background-color: #ff914d; color:white !important;" onclick="ga('send', 'event', 'button', 'about')">FIND OUT MORE</a></li>
 							</ul>
 						</div>
 					</section>
@@ -122,7 +129,7 @@
 							<h2>Start helping local businesses now</h2>
 							<p style="color: #545454;">Jump to our listings page to search for your favourite LocalSpots by name, suburb or postcode. Or else, browse by region!</p>
 							<ul class="actions">
-								<li><a href="https://localspots.sharetribe.com" class="button" style="background-color: #ff914d; color:white !important;">View spots</a></li>
+								<li><a href="https://localspots.sharetribe.com" class="button" style="background-color: #ff914d; color:white !important;" onclick="ga('send', 'event', 'button', 'view_spots')">View spots</a></li>
 							</ul>
 						</div>
 					</section>
@@ -133,7 +140,7 @@
 							<h2>Get cashflow for your business</h2>
 							<p style="color: #545454;">If you’re a business owner, claim your listing or list your business by <a href="mailto:localspots.com.au@gmail.com" style="color: #ff914d;">emailing us</a> or hitting the button below.</p>
 							<ul class="actions">
-								<li><a href="https://localspots.sharetribe.com/user_feedbacks/new" class="button" style="background-color: #ff914d; color:white !important;">Contact Us</a></li>
+								<li><a href="https://localspots.sharetribe.com/user_feedbacks/new" class="button" style="background-color: #ff914d; color:white !important;" onclick="ga('send', 'event', 'button', 'contact_us')">Contact Us</a></li>
 							</ul>
 						</div>
 					</section>
